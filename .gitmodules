@@ -1,0 +1,12 @@
+[submodule "bundle/mustache.vim"]
+	path = bundle/mustache.vim
+	url = git@github.com:juvenn/mustache.vim
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = git@github.com:kchmck/vim-coffee-script
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = git@github.com:groenewege/vim-less
+[submodule "bundle/vim-r-plugin"]
+	path = bundle/vim-r-plugin
+	url = git@github.com:jcfaria/Vim-R-plugin
