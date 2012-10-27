@@ -10,3 +10,6 @@
 [submodule "bundle/vim-r-plugin"]
 	path = bundle/vim-r-plugin
 	url = git@github.com:jcfaria/Vim-R-plugin
+[submodule "bundle/mustang"]
+	path = bundle/mustang
+	url = git@github.com:croaker/mustang-vim
