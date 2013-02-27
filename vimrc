@@ -28,3 +28,7 @@ vmap fj <Esc><Right>
 
 " Map ; to :
 map ; :
+
+if has("gui_running")
+  " Anything for GUI version only in here
+endif
