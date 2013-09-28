@@ -32,3 +32,7 @@ map ; :
 if has("gui_running")
   " Anything for GUI version only in here
 endif
+
+if match($TERM, "screen") != -1
+  let vimrplugin_screenplugin = 0
+endif
