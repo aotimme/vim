@@ -36,3 +36,4 @@ endif
 if match($TERM, "screen") != -1
   let vimrplugin_screenplugin = 0
 endif
+let g:vimrplugin_insert_mode_cmds = 0
