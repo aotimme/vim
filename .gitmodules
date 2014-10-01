@@ -37,3 +37,6 @@
 [submodule "bundle/vim-mustache-handlebars"]
 	path = bundle/vim-mustache-handlebars
 	url = git@github.com:mustache/vim-mustache-handlebars
+[submodule "bundle/vim-latex"]
+	path = bundle/vim-latex
+	url = git@github.com:jcf/vim-latex
