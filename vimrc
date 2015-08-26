@@ -27,11 +27,11 @@ autocmd BufWritePre *.py :%s/\s\+$//e
 autocmd BufNewFile,BufRead,BufEnter *.md :syn match markdownIgnore ".*_.*"
 
 " Map fj to <ESC>
-imap fj <Esc><Right>
-vmap fj <Esc><Right>
+"imap fj <Esc><Right>
+"vmap fj <Esc><Right>
 
 " Map ; to :
-map ; :
+"map ; :
 
 if has("gui_running")
   " Anything for GUI version only in here
@@ -43,6 +43,12 @@ endif
 let g:vimrplugin_insert_mode_cmds = 0
 
 set backspace=indent,eol,start
+
+let g:syntastic_cpp_include_dirs = [ '/usr/local/include', '/usr/local/include/eigen3' ]
+" blowing it, so stop trying
+"let g:syntastic_disabled_filetypes = [ 'cpp', 'c++' ]
+" if want to toggle syntastic:
+" `:SyntasticToggleMode`
 
 " set html as filetype for Rhtml
 au BufRead,BufNewFile *.Rhtml set filetype=html
