@@ -6,7 +6,7 @@ set expandtab
 set smartindent
 set number
 set ruler
-set cursorline
+"set cursorline
 set autoindent
 :syntax on
 set noswapfile
